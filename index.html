@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Pausa Activa Pilates — Pilates clásico y contemporáneo. Movimiento, bienestar y equilibrio. Las Heras 2244, Mar del Plata."
+    content="Pausa Activa Pilates — Pilates clásico y contemporáneo. Las Heras 2244, Mar del Plata."
   >
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,7 +56,9 @@
       text-decoration: none;
     }
 
-    /* HEADER */
+    /* =========================
+       HEADER
+    ========================= */
 
     header {
       position: fixed;
@@ -139,7 +141,9 @@
       color: white !important;
     }
 
-    /* HERO */
+    /* =========================
+       HERO
+    ========================= */
 
     .hero {
       min-height: 100vh;
@@ -259,7 +263,9 @@
       background: white;
     }
 
-    /* FOTO */
+    /* =========================
+       FOTO
+    ========================= */
 
     .place-photo {
       position: relative;
@@ -303,16 +309,22 @@
       pointer-events: none;
     }
 
+    /* UBICACIÓN SOBRE LA FOTO */
+
     .photo-card {
       position: absolute;
       left: -20px;
       bottom: 40px;
       z-index: 5;
-      background: rgba(255,255,255,.92);
+
+      background: rgba(255,255,255,.94);
       backdrop-filter: blur(15px);
+
       border: 1px solid rgba(255,255,255,.8);
       border-radius: 20px;
+
       padding: 20px 25px;
+
       box-shadow: var(--shadow);
     }
 
@@ -320,18 +332,20 @@
       display: block;
       text-transform: uppercase;
       letter-spacing: 2px;
-      font-size: 8px;
+      font-size: 9px;
       color: var(--rose-dark);
-      margin-bottom: 6px;
+      margin-bottom: 7px;
     }
 
     .photo-card strong {
       font-family: "Playfair Display", serif;
-      font-size: 20px;
+      font-size: 21px;
       font-weight: 400;
     }
 
-    /* SECCIONES */
+    /* =========================
+       SECCIONES
+    ========================= */
 
     section {
       padding: 120px 6%;
@@ -373,7 +387,9 @@
       margin-top: 22px;
     }
 
-    /* BENEFICIOS */
+    /* =========================
+       BENEFICIOS
+    ========================= */
 
     .benefits {
       background: white;
@@ -419,7 +435,9 @@
       color: var(--gray);
     }
 
-    /* MÉTODO */
+    /* =========================
+       MÉTODO
+    ========================= */
 
     .method {
       background: var(--cream);
@@ -463,7 +481,9 @@
       line-height: 1.9;
     }
 
-    /* PROFESORA */
+    /* =========================
+       PROFESORA
+    ========================= */
 
     .teacher {
       background: white;
@@ -497,7 +517,9 @@
       font-size: 20px;
     }
 
-    /* CUPOS */
+    /* =========================
+       CUPOS
+    ========================= */
 
     .limited {
       background: var(--rose-light);
@@ -531,7 +553,9 @@
       text-transform: uppercase;
     }
 
-    /* INFORMACIÓN */
+    /* =========================
+       INFORMACIÓN
+    ========================= */
 
     .info-grid {
       display: grid;
@@ -571,7 +595,9 @@
       line-height: 1.7;
     }
 
-    /* HORARIOS */
+    /* =========================
+       HORARIOS
+    ========================= */
 
     .hours {
       background: var(--black);
@@ -608,7 +634,9 @@
       color: #d5a9bd;
     }
 
-    /* INSTAGRAM */
+    /* =========================
+       INSTAGRAM
+    ========================= */
 
     .social {
       text-align: center;
@@ -626,7 +654,9 @@
       margin-bottom: 30px;
     }
 
-    /* CONTACTO */
+    /* =========================
+       CONTACTO
+    ========================= */
 
     .contact {
       text-align: center;
@@ -643,7 +673,9 @@
       margin-bottom: 35px;
     }
 
-    /* FOOTER */
+    /* =========================
+       FOOTER
+    ========================= */
 
     footer {
       padding: 35px 6%;
@@ -654,7 +686,9 @@
       letter-spacing: 1px;
     }
 
-    /* WHATSAPP */
+    /* =========================
+       WHATSAPP
+    ========================= */
 
     .floating-whatsapp {
       position: fixed;
@@ -678,7 +712,9 @@
       transform: scale(1.1);
     }
 
-    /* RESPONSIVE */
+    /* =========================
+       RESPONSIVE
+    ========================= */
 
     @media (max-width: 900px) {
 
@@ -783,7 +819,9 @@
 
 <body>
 
-  <!-- HEADER -->
+  <!-- =========================
+       HEADER
+  ========================= -->
 
   <header id="header">
 
@@ -808,10 +846,15 @@
       <div class="nav-links">
 
         <a href="#inicio">Inicio</a>
+
         <a href="#beneficios">Beneficios</a>
+
         <a href="#metodo">Método</a>
+
         <a href="#profesora">Profesora</a>
+
         <a href="#lugar">El lugar</a>
+
         <a href="#horarios">Horarios</a>
 
         <a
@@ -828,7 +871,9 @@
   </header>
 
 
-  <!-- HERO -->
+  <!-- =========================
+       HERO
+  ========================= -->
 
   <section class="hero" id="inicio">
 
@@ -859,14 +904,18 @@
             href="https://wa.me/542235913573?text=Hola%20Pausa%20Activa%20Pilates%2C%20quiero%20consultar%20por%20un%20turno."
             target="_blank"
             class="button button-whatsapp">
+
             💬 WhatsApp
+
           </a>
 
           <a
             href="https://www.instagram.com/pausa_activa_pilates/"
             target="_blank"
             class="button button-instagram">
+
             ◎ Instagram
+
           </a>
 
         </div>
@@ -874,7 +923,9 @@
       </div>
 
 
-      <!-- FOTO DEL ESTUDIO -->
+      <!-- =========================
+           FOTO + UBICACIÓN
+      ========================= -->
 
       <div class="place-photo">
 
@@ -886,12 +937,10 @@
 
         </div>
 
-        <!-- UBICACIÓN -->
-
         <div class="photo-card">
 
           <small>
-            Nuestro espacio · Mar del Plata
+            MAR DEL PLATA
           </small>
 
           <strong>
@@ -907,7 +956,9 @@
   </section>
 
 
-  <!-- BENEFICIOS -->
+  <!-- =========================
+       BENEFICIOS
+  ========================= -->
 
   <section class="benefits" id="beneficios">
 
@@ -950,7 +1001,6 @@
 
         </article>
 
-
         <article class="benefit">
 
           <div class="benefit-number">02</div>
@@ -963,7 +1013,6 @@
           </p>
 
         </article>
-
 
         <article class="benefit">
 
@@ -978,7 +1027,6 @@
 
         </article>
 
-
         <article class="benefit">
 
           <div class="benefit-number">04</div>
@@ -992,7 +1040,6 @@
 
         </article>
 
-
         <article class="benefit">
 
           <div class="benefit-number">05</div>
@@ -1005,7 +1052,6 @@
           </p>
 
         </article>
-
 
         <article class="benefit">
 
@@ -1027,7 +1073,9 @@
   </section>
 
 
-  <!-- MÉTODO -->
+  <!-- =========================
+       MÉTODO
+  ========================= -->
 
   <section class="method" id="metodo">
 
@@ -1097,7 +1145,9 @@
   </section>
 
 
-  <!-- PROFESORA -->
+  <!-- =========================
+       PROFESORA
+  ========================= -->
 
   <section class="teacher" id="profesora">
 
@@ -1139,7 +1189,9 @@
   </section>
 
 
-  <!-- CUPOS LIMITADOS -->
+  <!-- =========================
+       CUPOS LIMITADOS
+  ========================= -->
 
   <section class="limited">
 
@@ -1174,7 +1226,9 @@
   </section>
 
 
-  <!-- EL LUGAR -->
+  <!-- =========================
+       EL LUGAR
+  ========================= -->
 
   <section id="lugar">
 
@@ -1187,8 +1241,10 @@
         </div>
 
         <h2 class="section-title">
+
           Un lugar pensado
           <em>para vos.</em>
+
         </h2>
 
       </div>
@@ -1254,7 +1310,9 @@
   </section>
 
 
-  <!-- HORARIOS -->
+  <!-- =========================
+       HORARIOS
+  ========================= -->
 
   <section class="hours" id="horarios">
 
@@ -1265,8 +1323,10 @@
       </div>
 
       <h2 class="section-title">
+
         Cuando quieras
         <em>hacer una pausa.</em>
+
       </h2>
 
 
@@ -1317,7 +1377,9 @@
   </section>
 
 
-  <!-- INSTAGRAM -->
+  <!-- =========================
+       INSTAGRAM
+  ========================= -->
 
   <section class="social">
 
@@ -1340,7 +1402,9 @@
         href="https://www.instagram.com/pausa_activa_pilates/"
         target="_blank"
         class="button button-whatsapp">
+
         ◎ Ver Instagram
+
       </a>
 
     </div>
@@ -1348,7 +1412,9 @@
   </section>
 
 
-  <!-- CONTACTO -->
+  <!-- =========================
+       CONTACTO
+  ========================= -->
 
   <section class="contact">
 
@@ -1376,14 +1442,18 @@
           href="https://wa.me/542235913573?text=Hola%2C%20quiero%20consultar%20por%20un%20turno%20de%20Pilates."
           target="_blank"
           class="button button-whatsapp">
+
           💬 Consultar por WhatsApp
+
         </a>
 
         <a
           href="https://www.instagram.com/pausa_activa_pilates/"
           target="_blank"
           class="button button-instagram">
+
           ◎ Instagram
+
         </a>
 
       </div>
@@ -1393,7 +1463,9 @@
   </section>
 
 
-  <!-- FOOTER -->
+  <!-- =========================
+       FOOTER
+  ========================= -->
 
   <footer>
 
@@ -1410,11 +1482,15 @@
     target="_blank"
     class="floating-whatsapp"
     aria-label="WhatsApp">
+
     💬
+
   </a>
 
 
-  <!-- JAVASCRIPT -->
+  <!-- =========================
+       JAVASCRIPT
+  ========================= -->
 
   <script>
 
